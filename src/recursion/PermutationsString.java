@@ -1,8 +1,6 @@
 package recursion;
 
 public class PermutationsString {
-    // Java program to print all permutations of a
-// given string.
         public static void main(String[] args)
         {
             String str = "ABC";
@@ -10,13 +8,6 @@ public class PermutationsString {
             PermutationsString permutation = new PermutationsString();
             PermutationsString.permute(str, 0, n-1);
         }
-
-        /**
-         * permutation function
-         * @param str string to calculate permutation for
-         * @param l starting index
-         * @param r end index
-         */
         private static void permute(String str, int l, int r)
         {
             if (l == r)
@@ -31,14 +22,6 @@ public class PermutationsString {
                 }
             }
         }
-
-        /**
-         * Swap Characters at position
-         * @param a string value
-         * @param i position 1
-         * @param j position 2
-         * @return swapped string
-         */
         public static String swap(String a, int i, int j)
         {
             char temp;

@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.ArrayList;
 
-class Solution {
+class MaxAndSecondMax {
     public static ArrayList<Integer> largestAndSecondLargest(int sizeOfArray, int[] arr) {
         ArrayList<Integer> maxNumList = new ArrayList<>();
 
